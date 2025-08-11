@@ -1,0 +1,50 @@
+ body{
+            font-family: Arial, Helvetica, sans-serif;
+           background-color: rgb(10, 10, 10);
+           border: none;
+           height: 100vh;
+           margin: 0auto;
+           padding: 0auto;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+
+
+    
+        }
+        h2{
+            color: rgb(3, 4, 4);
+            text-align: center;
+            margin-bottom:80pxl ;
+        }
+        .card{
+            background-color: rgba(187, 189, 166, 0.918);
+            border: radius 45px; 
+            padding: 30px;
+            width: 300px;
+
+        }
+        form{ display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+        }
+       
+        input{
+            background-color: rgb(221, 220, 227);
+            margin-bottom: 15px;
+            padding: 10px;
+            border-radius: 5px;
+
+   border: 1px solid black  }
+   button{
+background-color: rgb(25, 150, 67)
+     ;
+     color: rgb(238, 233, 229);
+     padding: 10px;
+     border-radius: 8px;
+     border: 1px solid black;
+        }
+        button:hover{
+background-color: rgb(224, 16, 16);
+        }
